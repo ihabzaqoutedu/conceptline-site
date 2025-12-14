@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Coming Soon</title>
+  <style>
+    body{font-family:system-ui,Arial,sans-serif;margin:0;display:grid;place-items:center;min-height:100vh;background:#0b0f1a;color:#e7e9ee}
+    .box{max-width:760px;padding:56px 28px;text-align:center}
+    h1{margin:0 0 12px;font-size:44px}
+    p{margin:0 0 18px;font-size:18px;opacity:.9;line-height:1.6}
+    small{opacity:.7}
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>Coming Soon</h1>
+    <p>We’re working on the website. Please check back soon.</p>
+    <small>© <span id="y"></span> ConceptLine</small>
+  </div>
+  <script>document.getElementById("y").textContent=new Date().getFullYear();</script>
+</body>
+</html>
